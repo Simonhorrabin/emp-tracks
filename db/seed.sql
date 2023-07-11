@@ -15,16 +15,16 @@ VALUES
 INSERT INTO department(department_name, roles_id)
 VALUES
 
-('Topman', '1'),
-('TBD', '2'),
-('Athletic', '3'),
-('Mens', '4'),
-('Kids', '5'),
+('Meat', '1'),
+('Dairy','2'),
+('GM','3'),
+('Grocery','4'),
+('Reciving','5');
 
 INSERT INTO roles(title, salary, department_id)
 VALUES
-('Topman Manager', 55000, 1),
-('TBD Mananger', 65000, 2),
-('Athletic Manager', 60000, 3),
-('Picking', 28000, 4),
-('fulfillment', 26000, 5);
+('Meat Manager', 32000, 1),
+('Dairy Manager', 20000, 2),
+('GM Manager', 28000, 3),
+('Reciver', 23000, 4),
+('Grocery Manager', 38000, 5); 
