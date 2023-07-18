@@ -6,3 +6,5 @@ db.connect(err => {
 })
 
 mainMenu();
+
+// run node index.js
