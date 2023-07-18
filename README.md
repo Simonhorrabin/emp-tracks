@@ -59,12 +59,18 @@ Follow the prompts to add, update, or remove if chosen or simply select from the
 Each selection, once completed, will bring you back to the main menu. To finish your session, simply close the terminal.
 
 ## Demonstration
-Would you like to see the Employee Tracker in action? Watch this [demo](insert-demo-link-here).
+Would you like to see the Employee Tracker in action? 
+![root1](https://github.com/Simonhorrabin/emp-tracks/assets/123128833/216ecf4b-c5b8-4819-8314-2c2e8ae2069c)
+![root2](https://github.com/Simonhorrabin/emp-tracks/assets/123128833/810ec964-3809-458b-be1d-b4c6b556a070)
+![root3](https://github.com/Simonhorrabin/emp-tracks/assets/123128833/74077e6d-d8e1-4193-bf63-63a4938ee4ab)
+![root4](https://github.com/Simonhorrabin/emp-tracks/assets/123128833/793503c2-a9c1-4c13-810a-838a944400f9)
+![root5](https://github.com/Simonhorrabin/emp-tracks/assets/123128833/e9e7cc16-298a-4c09-bab6-ec24859c54af)
 
-## Questions
-Have questions about this project?
-- GitHub: []()
-- Email: simonhorrabin@gmail.com
+
+## Links
+
+- GitHub: [https://github.com/Simonhorrabin/emp-tracks]
+- https://github.com/Simonhorrabin/
 
 ## Credits
 - [Simon ](https://github.com/sarawrmas) (Project Author)
