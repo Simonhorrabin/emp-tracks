@@ -1,30 +1,33 @@
-USE business;
-
-
-INSERT INTO employees(id, first_name, last_name, roles_id, manager_id)
+INSERT INTO departments (name)
 VALUES
+('Sales'),
+('Engineering'),
+('Finance'),
+('Legal'),
+('Human Resources');
 
-(1, 'Dwayne', 'Wade', '1', '1'),
-(2, 'Lebron', 'James', '2', '2'),
-(3, 'Jason', 'Williams', '3', '3'),
-(4, 'Taylor', 'Swift', '4', '4'),
-(5, 'John ', 'Cena', '5', '5'),
-(6, 'Ashley', 'Olsen','1', '1'),
-(7, 'Dennis', 'Rodman','2', '2');
-
-INSERT INTO department(department_name, roles_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES
+('Salesperson', 90000, 1),
+('Sales Lead', 150000, 1),
+('Engineer', 160000, 2),
+('Lead Engineer', 150000, 2),
+('Accountant', 120000, 3),
+('Chief Financial Officer', 300000, 3),
+('Lawyer', 180000, 4),
+('Legal Team Lead', 250000, 4),
+('Human Resources Employee', 70000, 5),
+('Human Resources Director', 900000, 5);
 
-('Meat', '1'),
-('Dairy','2'),
-('GM','3'),
-('Grocery','4'),
-('Reciving','5');
-
-INSERT INTO roles(title, salary, department_id)
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
-('Meat Manager', 32000, 1),
-('Dairy Manager', 20000, 2),
-('GM Manager', 28000, 3),
-('Reciver', 23000, 4),
-('Grocery Manager', 38000, 5); 
+('Dwayne', 'Wade', 1, 2),
+('Chris', 'Bosh', 2, null),
+('Jason', 'Williams', 3, 4),
+('Taylor', 'Swift', 4, null),
+('Malia', 'Brown', 5, 6),
+('Sarah', 'Lourd', 6, null),
+('Tom', 'Allen', 7, 8),
+('Jackie', 'Meyer', 8, null),
+('Tyson', 'Mack', 9, 10),
+('Dennis', 'Rodman', 10, null);
