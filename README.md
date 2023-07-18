@@ -73,4 +73,4 @@ Would you like to see the Employee Tracker in action?
 - https://github.com/Simonhorrabin/
 
 ## Credits
-- [Simon ](https://github.com/sarawrmas) (Project Author)
+- [Simon ](https://github.com/simonhorrabin (Project Author)
